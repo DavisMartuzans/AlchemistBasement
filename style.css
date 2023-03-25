@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+html, body {
+    height: auto;
+    width: auto;
+	background-color: #28AFB0;
+}
 /* Navbar */
 .navbar {
 	background-color: #19647E;
@@ -8,6 +13,7 @@
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
+	border-radius: 20px;
 }
 .navbar h1 {
 	font-size: 36px;
@@ -21,11 +27,13 @@
 }
 .navbar nav a{
 	color: #fff;
+	padding: 10px;
 	text-decoration: none;
 	font-size: 1.2em;
 	text-transform: uppercase;
 	font-weight: 500;
-	display: inline-block;
+	display: flexbox;
+	justify-content: space-between;
 	width: 80px;
 	-webkit-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
@@ -62,9 +70,9 @@
 }
 
 #home .cta {
-	background-color: #ccc;
+	background-color: #fff;
 	border: none;
-	color: #333;
+	color: #19647E;
 	display: inline-block;
 	font-size: 24px;
 	margin-top: 20px;
@@ -79,8 +87,8 @@
 
 /* About Section */
 #about {
-	background-color: #ccc;
-	color: #333;
+	background-color: #19647E;
+	color: #fff;
 }
 
 #about h2 {
@@ -94,9 +102,9 @@
 }
 
 #about .cta {
-	background-color: #fff;
+	background-color: #333;
 	border: none;
-	color: #333;
+	color: #fff;
 	display: inline-block;
 	font-size: 24px;
 	margin-top: 20px;
@@ -105,14 +113,14 @@
 }
 
 #about .cta:hover {
-	background-color: #ccc;
+	background-color: #fff;
 	color: #fff;
 }
 
 /* Features Section */
 #features {
-	background-color: #fff;
-	color: #333;
+	background-color: #19647E;
+	color: #fff;
 }
 
 #features h2 {
@@ -133,7 +141,7 @@
 
 /* Screenshots Section */
 #screenshots {
-	background-color: #333;
+	background-color: #19647E;
 	color: #fff;
 }
 
@@ -145,6 +153,7 @@
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
+
 }
 
 .gallery img {
@@ -157,7 +166,7 @@
 
 /* Contact Section */
 #contact {
-	background-color: #ccc;
+	background-color: #19647E;
 	color: #333;
 }
 
@@ -201,11 +210,11 @@ input[type="submit"]:hover {
 
 /* Footer */
 footer {
-	background-color: #333;
+	background-color: #19647E;
 	color: #fff;
 	display: flex;
 	justify-content: center;
-	padding: 20px;
+	padding: 5px;
 }
 
 /* Responsive */
