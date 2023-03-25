@@ -1,29 +1,42 @@
-/* Header */
-header {
-	background-color: #333;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+/* Navbar */
+.navbar {
+	background-color: #19647E;
 	color: #fff;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px;
+	padding: 10px;
 }
-header h1 {
+.navbar h1 {
 	font-size: 36px;
 	margin: 0;
+	text-transform: uppercase;
+	font-weight: 500;
 }
 
-header nav ul {
-	margin-left: auto;
+.navbar nav ul {
+	margin-right: 100px;
 }
-
-header nav a:hover {
-	color: #ccc;
+.navbar nav a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: 500;
+	display: inline-block;
+	width: 80px;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.navbar nav a:hover {
+	color: #28AFB0;
 }
 
 /* Home Section */
 #home {
-	background-image: url(background.jpg);
+	background-color: #28AFB0;
 	background-size: cover;
 	color: #fff;
 	display: flex;
@@ -37,15 +50,19 @@ header nav a:hover {
 #home h2 {
 	font-size: 48px;
 	margin: 0;
+	text-transform: uppercase;
+	font-weight: 500;
 }
 
 #home p {
 	font-size: 24px;
 	margin: 20px 0;
+	text-transform: uppercase;
+	font-weight: 500;
 }
 
 #home .cta {
-	background-color: #fff;
+	background-color: #ccc;
 	border: none;
 	color: #333;
 	display: inline-block;
